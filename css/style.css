@@ -111,7 +111,7 @@ nav{
 }
 /* Finalizado contenedor principal */
 
-/* Header */
+/* main */
 main{
     position: relative;
     padding-top: 2rem;
@@ -119,6 +119,10 @@ main{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+}
+
+main .imagen-mia img{
+    border-radius: 100%;
 }
 
 main .contenido h4{
@@ -183,7 +187,7 @@ section .main{
     padding-left: 10px;
 }
 
-/* Finalizado de header */
+/* Finalizado de main */
 /* Paneles de multimedia */
 .redes-multimedia{
     margin-top: 4rem;
