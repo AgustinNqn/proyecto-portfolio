@@ -1,0 +1,16 @@
+/* body */
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: #18181b;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 5000px 125px #c4b84f;
+    z-index: -100
+}
+/* Finalizado de body */

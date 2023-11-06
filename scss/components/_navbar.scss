@@ -1,0 +1,30 @@
+/* Logo navbar */
+.imagen-navbar{
+    width: 8vh;
+}
+/* logo navbar */
+
+
+/* NavBar */
+nav{
+    max-width: 5000px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 0 0 10px;
+}
+
+.logo-navbar{
+    max-width: 100px;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+/* Finalizado navbar */

@@ -1,0 +1,68 @@
+/* Contenedor principal de bienvenida */
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+/* Finalizado contenedor principal */
+
+
+
+/* Paneles de multimedia */
+.redes-multimedia{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.redes-multimedia {
+    .tarjetas{
+        background-color: #27272a;
+        padding: 1rem;
+        border: 2px solid transparent;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+            span{
+                display: inline-block;
+                background-color: #948c47;
+                padding: 2px 9px;
+                margin-bottom: 1rem;
+                font-size: 1.75rem;
+                color: #fff;
+                border-radius: 5px;
+            }
+            h4{
+                margin-bottom: 0.5rem;
+                color: #fff;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            p{
+                color: #ccc;
+                margin-bottom: 1rem;
+            }
+            a{
+                color: #fff;
+                transition: all 0.3s ease;
+                &:hover{
+                    color: #c4b84f;
+                }
+            }
+    }
+    .card{
+        &:hover{
+        background-color: #323232;
+        border-color: #fff;
+    }
+}
+} 
+/* Finalizado de paneles */

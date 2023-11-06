@@ -1,0 +1,17 @@
+@media (width < 900px){
+    .logo-navbar{
+        display: none;
+    }
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor .imagen{
+        grid-area: 1/1/2/2;
+    }
+    .redes-multimedia{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        grid-template-columns: 1fr 200px;
+    }
+}
