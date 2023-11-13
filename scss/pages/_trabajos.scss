@@ -1,0 +1,100 @@
+/* Logo navbar */
+.imagen-navbar{
+    width: 8vh;
+}
+/* logo navbar */
+
+/* NavBar */
+
+
+.logo-navbar{
+    max-width: 100px;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+/* Finalizado navbar */
+
+/* Footer */
+
+.columna{
+    text-align: center;
+}
+
+.logo{
+    margin-left: 30%;
+}
+
+footer {
+        .columna{
+                .logo{
+                    max-width: 100px;
+                    display: flex;
+                    margin-bottom: 2rem;
+                    align-content: center;
+                    flex-direction: row;
+                    }
+                p{
+                    color: $color-blanco-gris;
+                    margin-bottom: 2rem;
+                    justify-content: end;
+                    }
+                .redes{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                        a{
+                        color: $color-blanco-gris;
+                        border: 1px solid $color-blanco-gris;
+                        padding: 5px 10px;
+                        font-size: 1.25rem;
+                        border-radius: 100%;
+                        transition: all 0.3s ease;
+                        &:hover{
+                                color: $color-blanco;
+                                background-color: $color-amarillo-oscuro;
+                                border-color: $color-amarillo-oscuro;
+                        }
+                        }
+                    }    
+                h4{
+                    color: $color-blanco;
+                    margin-bottom: 2rem;
+                    flex-direction: row;
+                    justify-self: center;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                }
+                > a{
+                    display: block;
+                    color: $color-blanco-gris;
+                    margin-bottom: 1rem;
+                    transition: all 0.3s ease;
+                &:hover{
+                    color: $color-amarillo-oscuro;
+                }                   
+            }
+    }
+}
+@media (width < 900px){
+    .logo-navbar{
+        display: none;
+    }
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor .imagen{
+        grid-area: 1/1/2/2;
+    }
+    .redes-multimedia{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        grid-template-columns: 1fr 200px;
+    }
+}

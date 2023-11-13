@@ -1,0 +1,6 @@
+footer{
+    position:relative;
+    display: grid;
+    grid-template-columns: 400px repeat(3, 1fr);
+    gap: 40px;
+}

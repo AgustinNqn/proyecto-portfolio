@@ -1,0 +1,12 @@
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: $color-blanco;
+    background-color: $color-amarillo-oscuro;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background: $color-amarillo-palido;
+    }
+}

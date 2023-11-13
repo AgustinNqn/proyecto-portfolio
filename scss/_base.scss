@@ -1,0 +1,31 @@
+$color-amarillo-oscuro: #948c47;
+$color-amarillo-palido: #4b500c;
+$color-amarillo: #c4b84f;
+$color-blanco: #fff;
+$color-blanco-gris: #ccc;
+$color-negro-suave: #323232;
+$color-negro-fuerte: #27272a;
+$color-fondo: #18181b;
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: $color-fondo;
+}
+
