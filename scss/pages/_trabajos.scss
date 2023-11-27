@@ -30,6 +30,7 @@
 }
 
 footer {
+    max-width: 100%;
         .columna{
                 .logo{
                     max-width: 100px;
@@ -81,6 +82,9 @@ footer {
             }
     }
 }
+
+
+
 @media (width < 900px){
     .logo-navbar{
         display: none;
@@ -94,7 +98,19 @@ footer {
     .redes-multimedia{
         grid-template-columns: repeat(2, 1fr);
     }
-    footer{
+    .container{
         grid-template-columns: 1fr 200px;
+    }
+}
+
+@media(width < 458px){
+    html, body{
+        width: 100%;
+    }
+    .redes-multimedia{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }

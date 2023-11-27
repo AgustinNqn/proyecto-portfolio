@@ -15,19 +15,21 @@
     align-items: center;
     gap: 3rem;
 }
+.navbar-nav{
+    text-align: center;
+}
 /* Finalizado navbar */
 
 
 /*main*/
-main{
+.contenedor{
     position: relative;
     padding-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    
     align-items: center;
     gap: 2rem;
     .imagen-mia{
-
             img{
             border-radius: 100%;
         }
@@ -61,6 +63,7 @@ main{
     .imagen{
     position: relative;
         &::before{
+            width: auto;
             content: "o";
             position: absolute;
             top: 0;
@@ -155,6 +158,7 @@ section .main{
 }
 
 footer {
+    max-width: 100%;
         .columna{
                 .logo{
                     max-width: 100px;
@@ -207,7 +211,11 @@ footer {
     }
 }
 
+
 @media (width < 900px){
+    html{
+        width: 100%;
+    }
     .logo-navbar{
         display: none;
     }
@@ -216,11 +224,14 @@ footer {
     }
     .contenedor .imagen{
         grid-area: 1/1/2/2;
+        &::before{
+            font-size: 36rem;
+        }
     }
     .redes-multimedia{
         grid-template-columns: repeat(2, 1fr);
     }
-    footer{
+    .conteiner{
         grid-template-columns: 1fr 200px;
     }
 }

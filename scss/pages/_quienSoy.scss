@@ -16,7 +16,19 @@
     gap: 3rem;
 }
 /* Finalizado navbar */
-
+.contenedor{
+    max-width: 1200px;
+    .contenido{
+        p{
+            color: $color-blanco;
+        }
+    }
+    .redes-multimedia{
+        .tarjetas{
+        box-shadow: 0 0 20px 0 rgba($color: $color-amarillo, $alpha: 0.3);
+        }
+    }
+}
 /* Footer */
 .columna{
     text-align: center;
@@ -26,7 +38,10 @@
     margin-left: 30%;
 }
 
+
+
 footer {
+    max-width: 100%;
         .columna{
                 .logo{
                     max-width: 100px;
@@ -78,6 +93,8 @@ footer {
             }
     }
 }
+
+
 
 @media (width < 900px){
     .logo-navbar{
