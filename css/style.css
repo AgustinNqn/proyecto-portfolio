@@ -69,7 +69,7 @@ ul {
 footer {
   position: relative;
   display: grid;
-  grid-template-columns: 400px repeat(3, 1fr);
+  grid-template-columns: 300px repeat(2, 1fr);
   gap: 40px;
 }
 
@@ -657,9 +657,6 @@ footer .columna > a:hover {
 }
 
 @media (width < 900px) {
-  footer {
-    width: 100%;
-  }
   body {
     width: 100%;
   }
@@ -796,7 +793,7 @@ footer .columna > a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
   footer {
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 50%;
   }
 }
 /* Logo navbar */
@@ -818,6 +815,59 @@ footer .columna > a:hover {
 }
 
 /* Finalizado navbar */
+.contenedor .imagenTrabajo .job {
+  text-align: center;
+  width: 85%;
+}
+.contenedor .contenido {
+  width: 100%;
+}
+
+.contenedor .redes-multimedia .tarjetaswork .laburo {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  justify-content: center;
+}
+
+.tarjetaswork {
+  background-color: #27272a;
+  padding: 1rem;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+.tarjetaswork h4 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.tarjetaswork span {
+  display: inline-block;
+  background-color: #948c47;
+  padding: 2px 9px;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #fff;
+  border-radius: 5px;
+}
+.tarjetaswork p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+.tarjetaswork a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.tarjetaswork a:hover {
+  color: #c4b84f;
+}
+.tarjetaswork .card:hover {
+  background-color: #323232;
+  border-color: #fff;
+}
+
 /* Footer */
 .columna {
   text-align: center;
@@ -893,7 +943,7 @@ footer .columna > a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
   .container {
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 50%;
   }
 }
 @media (width < 458px) {

@@ -18,6 +18,71 @@
     gap: 3rem;
 }
 /* Finalizado navbar */
+.contenedor{
+    .imagenTrabajo{
+        .job{
+            text-align: center;
+            width: 85%;  
+        }
+    }
+    .contenido{
+        width: 100%;
+
+    }
+}
+
+.contenedor{
+    .redes-multimedia{
+        .tarjetaswork{
+            .laburo{
+                width: 100%;
+                aspect-ratio: 3/2;
+                object-fit: contain;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.tarjetaswork{
+    background-color: $color-negro-fuerte;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    h4{
+        margin-bottom: 0.5rem;
+        color: $color-blanco;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    span{
+        display: inline-block;
+        background-color: $color-amarillo-oscuro;
+        padding: 2px 9px;
+        margin-bottom: 1rem;
+        font-size: 1.75rem;
+        color: $color-blanco;
+        border-radius: 5px;
+    }
+    p{
+        color: $color-blanco-gris;
+        margin-bottom: 1rem;
+    }
+    a{
+        color: $color-blanco;
+        transition: all 0.3s ease;
+        &:hover{
+            color: $color-amarillo; 
+        }
+    }
+    .card{
+        &:hover{
+        background-color: $color-negro-suave;
+        border-color: $color-blanco;
+    }
+    }
+}
 
 /* Footer */
 
@@ -99,7 +164,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     .container{
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 50%;
     }
 }
 
