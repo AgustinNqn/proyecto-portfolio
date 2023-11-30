@@ -234,4 +234,13 @@ footer {
     .conteiner{
         grid-template-columns: 1fr 200px;
     }
+    .container{
+        width: 100%;
+    }
+}
+
+@media (width < 425px){
+    footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
